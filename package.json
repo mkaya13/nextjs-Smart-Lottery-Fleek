@@ -1,0 +1,30 @@
+{
+  "name": "nextjs-smart-contract-lottery",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@walletconnect/web3-provider": "^1.8.0",
+    "@web3auth/web3auth": "^2.1.2",
+    "magic-sdk": "^9.0.0",
+    "moralis": "^2.4.0",
+    "moralis-v1": "^1.11.0",
+    "next": "12.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-moralis": "^1.4.2",
+    "web3uikit": "^0.1.159"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.11",
+    "eslint": "8.23.1",
+    "eslint-config-next": "12.3.0",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8"
+  }
+}
