@@ -7,12 +7,12 @@ const nextConfig = {
 module.exports = {
     nextConfig,
 
-    //exportPathMap: async function (defaultPathMap, { dev, dir, outDir, distDir, buildId }) {
-    //    return {
-    //        "/": { page: "/" },
-    //    }
-    //},
-    //images: {
-    //    unoptimized: true,
-    //},
+    exportPathMap: async function (defaultPathMap, { dev, dir, outDir, distDir, buildId }) {
+        return {
+            "/": { page: "/" },
+        }
+    },
+    images: {
+        unoptimized: true,
+    },
 }
